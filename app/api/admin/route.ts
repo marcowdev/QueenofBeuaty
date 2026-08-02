@@ -1,12 +1,13 @@
 import { ensureCatalog } from "../catalog/route";
 
 type AdminEnv = {
-  DB: D1Database;
+  DB: any;
   ADMIN_KEY?: string;
 };
 
 async function getRuntime() {
-  const { env } = await import("cloudflare:workers");
+  const workersModulePath: string = "cloudflare:workers";
+  const { env } = await import(workersModulePath);
   return env as unknown as AdminEnv;
 }
 
