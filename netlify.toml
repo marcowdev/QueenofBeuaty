@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "dist" # Ou a pasta que o seu script gera (ex: out, dist, build)
+
+# Desativa o plugin automático do Next.js para deixar o seu script rodar 100% puro
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+  [plugins.inputs]
+    disable = true
