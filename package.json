@@ -2,9 +2,7 @@
   "name": "queen-of-beauty",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-
-  },
+  "engines": {},
   "scripts": {
     "install:ci": "bash scripts/install-ci.sh",
     "dev": "vite",
@@ -24,7 +22,7 @@
   "devDependencies": {
     "@cloudflare/vite-plugin": "1.37.1",
     "@tailwindcss/postcss": "4.2.1",
-    "@types/node": "20.17.6",
+    "@types/node": "^26.1.2",
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
     "@vitejs/plugin-react": "6.0.2",
