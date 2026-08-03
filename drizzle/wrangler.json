@@ -1,0 +1,14 @@
+{
+  "name": "queen-of-beauty",
+  "main": "dist/server/index.js",
+  "compatibility_date": "2026-08-02",
+  "assets": {
+    "directory": "dist/client"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "rainha-da-beleza"
+    }
+  ]
+}
