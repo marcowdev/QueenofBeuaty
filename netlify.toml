@@ -1,3 +1,3 @@
 [build]
   command = "npm run build"
-  publish = "dist" # (ou a pasta correta gerada pela sua build, como 'out' ou 'build')
+  publish = "dist"
